@@ -8,6 +8,7 @@ import { Context } from '../context/StateContext'
 
 export default function Navbar() {
   const { showCart, setShowCart, totalQuantities } = useContext(Context);
+
   return (
     <div className='navbar-container'>
       <p className='logo'>
